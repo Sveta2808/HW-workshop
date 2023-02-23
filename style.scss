@@ -220,6 +220,7 @@ button {
             &_img {
                 width: 80px;
                 height: 80px;
+                
             }
 
             &_title {
@@ -294,7 +295,7 @@ button {
                 background: #9FDEA9;
                 border-radius: 61px;
                 border: none;
-                margin: 14px 0 14px;
+                margin-bottom: 14px;
             }
 
             &_btn {
@@ -302,6 +303,7 @@ button {
                 height: 56px;
                 border: 3px solid #4DB96B;
                 border-radius: 61px;
+
 
             }
         }
@@ -318,6 +320,7 @@ button {
 
         img {
             padding-right: 20px;
+            vertical-align: middle;
         }
     }
 
@@ -328,4 +331,24 @@ button {
         margin-top: 50px;
     }
 
+}
+
+input[type=text] {
+    padding-left: 30px;
+}
+
+input[type=text]:invalid {
+    border: 1px solid #ED0131;
+    
+}
+
+input[type=text]:hover {
+    border: 1px solid #0E6245;
+}
+
+button:hover {
+
+    background: #4DB96B;
+    color: #ffffff;
+    font-weight: 700;
 }

@@ -1,4 +1,4 @@
-@mixin button-help(){
+@mixin button-help() {
     width: 180px;
     height: 70px;
     background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #F9F9F9 100%);
@@ -10,4 +10,10 @@
     line-height: 27px;
     text-align: center;
     color: #48924F;
+
+    &:hover {
+        background: #4DB96B;
+        color: #ffffff;
+        font-weight: 700;
+    }
 }

@@ -85,6 +85,11 @@ button {
   text-align: center;
   color: #48924F;
 }
+.header nav li .btn-help:hover {
+  background: #4DB96B;
+  color: #ffffff;
+  font-weight: 700;
+}
 
 .services {
   display: flex;
@@ -134,6 +139,11 @@ button {
   text-align: center;
   color: #48924F;
   margin: 50px 0;
+}
+.btn-help:hover {
+  background: #4DB96B;
+  color: #ffffff;
+  font-weight: 700;
 }
 
 .center {
@@ -263,7 +273,7 @@ button {
   background: #9FDEA9;
   border-radius: 61px;
   border: none;
-  margin: 14px 0 14px;
+  margin-bottom: 14px;
 }
 .section-4_form_info_btn {
   width: 168px;
@@ -280,9 +290,28 @@ button {
 }
 .section-4_contacts img {
   padding-right: 20px;
+  vertical-align: middle;
 }
 .section-4_end {
   background-color: #324B29;
   height: 145px;
   margin-top: 50px;
+}
+
+input[type=text] {
+  padding-left: 30px;
+}
+
+input[type=text]:invalid {
+  border: 1px solid #ED0131;
+}
+
+input[type=text]:hover {
+  border: 1px solid #0E6245;
+}
+
+button:hover {
+  background: #4DB96B;
+  color: #ffffff;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
