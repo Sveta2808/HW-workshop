@@ -302,16 +302,29 @@ button {
                 height: 56px;
                 border: 3px solid #4DB96B;
                 border-radius: 61px;
-                
+
             }
         }
 
 
     }
-    &_end{
-        background-color:  #324B29;
+
+    &_contacts {
+        margin-left: 100px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        img {
+            padding-right: 20px;
+        }
+    }
+
+    &_end {
+        background-color: #324B29;
         height: 145px;
-        
+
         margin-top: 50px;
     }
 

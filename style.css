@@ -271,6 +271,16 @@ button {
   border: 3px solid #4DB96B;
   border-radius: 61px;
 }
+.section-4_contacts {
+  margin-left: 100px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.section-4_contacts img {
+  padding-right: 20px;
+}
 .section-4_end {
   background-color: #324B29;
   height: 145px;
