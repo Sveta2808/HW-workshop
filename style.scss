@@ -5,6 +5,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 14px;
+    max-width: 1903px;
 }
 
 h1,
@@ -276,9 +277,42 @@ button {
             margin: 70px 0;
         }
     }
+
     &_form {
         display: flex;
         flex-direction: row;
+        justify-content: center;
+
+        &_info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &_input {
+                width: 374px;
+                height: 56px;
+                background: #9FDEA9;
+                border-radius: 61px;
+                border: none;
+                margin: 14px 0 14px;
+            }
+
+            &_btn {
+                width: 168px;
+                height: 56px;
+                border: 3px solid #4DB96B;
+                border-radius: 61px;
+                
+            }
+        }
+
+
+    }
+    &_end{
+        background-color:  #324B29;
+        height: 145px;
+        
+        margin-top: 50px;
     }
 
 }

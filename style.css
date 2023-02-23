@@ -2,6 +2,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 14px;
+  max-width: 1903px;
 }
 
 h1,
@@ -249,4 +250,29 @@ button {
 .section-4_form {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+}
+.section-4_form_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-4_form_info_input {
+  width: 374px;
+  height: 56px;
+  background: #9FDEA9;
+  border-radius: 61px;
+  border: none;
+  margin: 14px 0 14px;
+}
+.section-4_form_info_btn {
+  width: 168px;
+  height: 56px;
+  border: 3px solid #4DB96B;
+  border-radius: 61px;
+}
+.section-4_end {
+  background-color: #324B29;
+  height: 145px;
+  margin-top: 50px;
 }/*# sourceMappingURL=style.css.map */
