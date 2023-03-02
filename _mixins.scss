@@ -17,3 +17,11 @@
         font-weight: 700;
     }
 }
+
+@mixin title() {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 96px;
+    text-align: center;
+    color: #828282;
+}

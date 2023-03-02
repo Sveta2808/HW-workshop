@@ -1,4 +1,5 @@
 @import 'mixins';
+@import 'variables';
 
 
 body {
@@ -23,7 +24,7 @@ button {
 .header {
 
     background-image: url("../assets/header-grass.png");
-    color: #ffffff;
+    color:var(--text-color);
     height: 840px;
     width: 100%;
     display: flex;
@@ -85,7 +86,7 @@ button {
                 background: rgba(0, 0, 0, 0.5);
                 border-radius: 59px;
                 border: none;
-                color: #ffffff;
+                color: var(--text-color);
                 font-size: 18px;
                 letter-spacing: 2px;
             }
@@ -106,11 +107,7 @@ button {
     align-items: center;
 
     &_title {
-        font-weight: 800;
-        font-size: 64px;
-        line-height: 96px;
-        text-align: center;
-        color: #828282;
+        @include title();
     }
 
     &_title-icon {
@@ -159,12 +156,7 @@ button {
     height: 146px;
 
     &_title {
-        font-weight: 800;
-        font-size: 64px;
-        line-height: 96px;
-        text-align: center;
-        color: #828282;
-
+        @include title();
     }
 
     &_title-icon {
@@ -178,7 +170,7 @@ button {
 
     &_content {
         background-image: url('./assets/s2-grass.jpg');
-        color: #ffffff;
+        color: var(--text-color);
 
         &_text {
             font-weight: 600;
@@ -213,7 +205,7 @@ button {
             gap: 14px;
             max-width: 577px;
             padding: 30px;
-            border: 1px solid #6CB981;
+            border: 1px solid var(--tertiary-color);
             border-radius: 40px;
             margin-bottom: 45px;
 
@@ -249,11 +241,7 @@ button {
 
 
         &_title {
-            font-weight: 800;
-            font-size: 64px;
-            line-height: 96px;
-            text-align: center;
-            color: #828282;
+            @include title();
             margin: 70px 0;
         }
 
@@ -270,11 +258,7 @@ button {
         align-items: center;
 
         &_title {
-            font-weight: 800;
-            font-size: 64px;
-            line-height: 96px;
-            text-align: center;
-            color: #828282;
+            @include title();
             margin: 70px 0;
         }
     }
@@ -292,7 +276,7 @@ button {
             &_input {
                 width: 374px;
                 height: 56px;
-                background: #9FDEA9;
+                background: var(--quaternary-color);
                 border-radius: 61px;
                 border: none;
                 margin-bottom: 14px;
@@ -301,7 +285,7 @@ button {
             &_btn {
                 width: 168px;
                 height: 56px;
-                border: 3px solid #4DB96B;
+                border: 3px solid var(--primary-color);
                 border-radius: 61px;
 
 
@@ -325,7 +309,7 @@ button {
     }
 
     &_end {
-        background-color: #324B29;
+        background-color: var(--footer-color);
         height: 145px;
 
         margin-top: 50px;
